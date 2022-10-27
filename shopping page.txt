@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+           
+            height: 100vh;
+            display:flex;
+            justify-content: center;
+            background:linear-gradient(to bottom right,snow,aqua);
+            align-items: center;
+        }
+        .container{
+            width: 75%;
+            height: 95%;
+            border:2px solid deepskyblue;
+            background-color: snow;
+            box-shadow: 0px 25px 40px;
+            border-radius: 20px;
+            background: linear-gradient(to bottom right,snow,wheat);
+            
+        }
+        .header{
+            margin: auto;
+            width: 90%;
+           
+            height: 15%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .heading{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: palevioletred;
+            
+        }
+        .a{
+            font-size: medium;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+            color: tomato;
+            
+        }
+        .b{
+            padding-top: 5px;
+            padding-left: 3px;
+        }
+        .e,.c{
+padding-left: 3px;
+padding-top: 2px;
+font-weight: bold;
+        }
+        .c:hover{
+            color: darkblue;
+            cursor: pointer;
+        }
+        .d{
+            padding-top: 25px;
+            padding-left: 5px;
+        }
+        .e:hover{
+            color: darkcyan;
+            cursor: pointer;
+        }
+        hr{
+            width: 65%;
+            float: right;
+            margin-right: 5%;
+
+        }
+        .check{
+            font-weight: bold;
+            color:rgb(6, 6, 31);
+            font-size: larger;
+            font-style: oblique;
+            line-height: 10px;
+            padding-top: 45PX;
+        
+            margin-left: 65%;
+        }
+        .items{
+            font-size: large;
+            color: rgb(1, 1, 3);
+            padding-top: 8px;
+            margin-left: 65%;
+            padding-bottom: 10px;
+        }
+        button{
+margin-left: 65%;
+border: grey;
+width: 16%;
+    height: 8%;
+    font-size: large;
+    border-radius: 20px;
+        }
+        .g:hover{
+        background: linear-gradient(to bottom right,aqua,blue);
+border: grey;
+        }
+        .a:hover{
+            color:black;
+            cursor: pointer;
+        }
+       .a{
+        font-size: large;
+        font-weight: 900;
+       } 
+       .l{
+        float:left
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><h2 class="heading">Shopping cart
+            
+            <img src="cart1.png" alt=""width="35px"></h2>
+            
+        <h5 class="a">Remove all</h5></div>
+<hr class="l">       
+<img class="b"src="shoes.png" alt=""width="170px">
+<div>
+<label class="c">Orange Shoes - Rs200.00</label>
+</div>
+<hr class="l">
+
+<img class="b"src="shoes2.png" alt=""width="161px">
+<div ><label class="c">Blue Shoes - Rs250.00</label>
+</div>
+<hr>
+<div class="check">Total amount-Rs450.00</div>
+<div class="items">Items-2</div>
+<button class="g">Checkout</button>
+</div>
+</body>
+</html>
